@@ -1,0 +1,72 @@
+{
+  "node_modules/nuxt/dist/app/entry.mjs": {
+    "file": "entry-ae4583fc.mjs",
+    "src": "node_modules/nuxt/dist/app/entry.mjs",
+    "isEntry": true,
+    "dynamicImports": [
+      "pages/impressum.vue",
+      "pages/index.vue",
+      "virtual:nuxt:/Users/nils/repos/nofreelunch/nofreelunch-co.github.io/app/.nuxt/error-component.mjs"
+    ],
+    "css": [
+      "entry.d504f553.css"
+    ]
+  },
+  "virtual:nuxt:/Users/nils/repos/nofreelunch/nofreelunch-co.github.io/app/.nuxt/error-component.mjs": {
+    "file": "error-component-8d8a66ac.mjs",
+    "src": "virtual:nuxt:/Users/nils/repos/nofreelunch/nofreelunch-co.github.io/app/.nuxt/error-component.mjs",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs"
+    ],
+    "dynamicImports": [
+      "node_modules/@nuxt/ui-templates/dist/templates/error-404.vue",
+      "node_modules/@nuxt/ui-templates/dist/templates/error-500.vue"
+    ]
+  },
+  "pages/impressum.vue": {
+    "file": "impressum-d7de121d.mjs",
+    "src": "pages/impressum.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs",
+      "_plugin-vue_export-helper-84c1d017.mjs"
+    ]
+  },
+  "_plugin-vue_export-helper-84c1d017.mjs": {
+    "file": "plugin-vue_export-helper-84c1d017.mjs"
+  },
+  "pages/index.vue": {
+    "file": "index-084352e7.mjs",
+    "src": "pages/index.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs",
+      "_plugin-vue_export-helper-84c1d017.mjs"
+    ]
+  },
+  "node_modules/@nuxt/ui-templates/dist/templates/error-404.vue": {
+    "file": "error-404-84e8db24.mjs",
+    "src": "node_modules/@nuxt/ui-templates/dist/templates/error-404.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs",
+      "_plugin-vue_export-helper-84c1d017.mjs"
+    ],
+    "css": [
+      "error-404.43ee40fd.css"
+    ]
+  },
+  "node_modules/@nuxt/ui-templates/dist/templates/error-500.vue": {
+    "file": "error-500-0527be5e.mjs",
+    "src": "node_modules/@nuxt/ui-templates/dist/templates/error-500.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "node_modules/nuxt/dist/app/entry.mjs",
+      "_plugin-vue_export-helper-84c1d017.mjs"
+    ],
+    "css": [
+      "error-500.45c67e9b.css"
+    ]
+  }
+}
