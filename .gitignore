@@ -55,7 +55,7 @@ jspm_packages/
 # nuxt.js build output
 .nuxt
 .output
-app/dist
+dist
 
 # vuepress build output
 .vuepress/dist
